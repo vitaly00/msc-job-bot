@@ -2,7 +2,7 @@ import sqlite3
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes, MessageHandler, filters, ConversationHandler
 
-TOKEN = "INSERISCI_IL_TUO_TOKEN"
+TOKEN = "8713437954:AAEiHG_ylyYHp47ErTyxzxJHSIdv6oOEFsc"
 
 # DB setup
 conn = sqlite3.connect("jobs.db", check_same_thread=False)
